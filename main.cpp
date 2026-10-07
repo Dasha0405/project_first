@@ -2,12 +2,10 @@
 using namespace std;
 
 int square(int x) {
-    return x * x;
+    return x * x* x;
 }
 
 int main() {
-    int n;
-    cin >> n;
-    cout << square(n) << endl;
+    cout << square(5) << endl;
     return 0;
 }
